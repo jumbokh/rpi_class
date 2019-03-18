@@ -6,6 +6,9 @@
 ![image](https://github.com/jumbokh/rpi_class/blob/master/sdformater.JPG)
 #
 * 2. [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+#
+![image](https://github.com/jumbokh/rpi_class/blob/master/win32diskimager.JPG)
+#
 * 3. [putty 終端機程式](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * 4. [作業系統](https://www.raspberrypi.org/downloads/)
 * 5. [無線網路監控](https://briian.com/8293/)
