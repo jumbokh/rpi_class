@@ -13,6 +13,8 @@
 * 4. [作業系統](https://www.raspberrypi.org/downloads/)
 * 5. [無線網路監控](https://briian.com/8293/)
 #
+* [下載線](https://goods.ruten.com.tw/item/show?21614419065751)
+* [USB-TTL](https://goods.ruten.com.tw/item/show?21618647811364)
 ### [安裝請參考:28頁](https://github.com/jumbokh/rpi_class/blob/master/NCTU/IoT%20platform%20course(Raspberry%20Pi)%20(2).pdf)
 #
 ##### 燒錄系統至 SD卡
