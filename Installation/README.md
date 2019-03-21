@@ -26,6 +26,7 @@
 ###### dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 root=PARTUUID=22dedadf-02 rootfstype=ext4 elevator=deadline 
 ###### fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles
 #
+* [refers](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/)
 ##### 放一個空的檔案： SSH 至根目錄下 (SD卡目錄最頂端)
 #
 ##### 接下來把 USB-TTL 線連接至樹莓派，先不連接電腦
@@ -33,3 +34,9 @@
 ##### 連接樹莓派電源，開啟 "無線網路監控程式"
 #
 ##### 執行 putty 連接
+#
+##### [關掉藍芽](https://blog.sleeplessbeastie.eu/2018/12/31/how-to-disable-onboard-wifi-and-bluetooth-on-raspberry-pi-3/) 
+* $ echo "dtoverlay=pi3-disable-bt" | sudo tee -a /boot/config.txt
+* $ sudo systemctl disable hciuart
+* $ sudo reboot
+# [overlays](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README)
