@@ -25,8 +25,7 @@
 * enable_uart=1
 #
 ##### cmdline.txt 修改成：
-* dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 root=PARTUUID=22dedadf-02 rootfstype=ext4 elevator=deadline 
-* fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles
+* dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 root=PARTUUID=22dedadf-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles
 #
 * [refers](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/)
 ##### 放一個空的檔案： SSH 至根目錄下 (SD卡目錄最頂端)
