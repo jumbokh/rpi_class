@@ -19,7 +19,7 @@
 #
 ##### 燒錄系統至 SD卡
 #
-* config.txt 於檔案最後加以下3行：
+##### config.txt 於檔案最後加以下3行：
 * dtoverlay=pi3-miniuart-bt
 * core_freq=250
 * enable_uart=1
