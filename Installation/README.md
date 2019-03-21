@@ -3,17 +3,17 @@
 #### 工具程式及系統：
 * 1. [SD Formater](https://www.sdcard.org/downloads/formatter_4/)
 #
-![image](https://github.com/jumbokh/rpi_class/blob/master/sdformater.JPG)
+![image](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/sdformater.JPG)
 #
 * 2. [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 #
-![image](https://github.com/jumbokh/rpi_class/blob/master/win32diskimager.JPG)
+![image](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/win32diskimager.JPG)
 #
 * 3. [putty 終端機程式](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * 4. [作業系統](https://www.raspberrypi.org/downloads/)
 * 5. [無線網路監控](https://briian.com/8293/)
 #
-### [安裝請參考:28頁](https://drive.google.com/file/d/1r3nSUufSA0wO9MLPtAdbwjtJ5fbfT7e9/view)
+### [安裝請參考:28頁](https://github.com/jumbokh/rpi_class/blob/master/NCTU/IoT%20platform%20course(Raspberry%20Pi)%20(2).pdf)
 #
 ##### 燒錄系統至 SD卡
 #
