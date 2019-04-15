@@ -30,5 +30,5 @@
 ### plt.ylabel('some numbers')
 ### plt.show()
 #
-# [matplotlib examplea](https://matplotlib.org/1.4.1/users/pyplot_tutorial.html)
+# [matplotlib examples](https://matplotlib.org/1.4.1/users/pyplot_tutorial.html)
 
