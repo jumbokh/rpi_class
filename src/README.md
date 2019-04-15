@@ -23,6 +23,12 @@
 *     (py36)\# sudo easy_install scipy                 
 *     (py36)\# ## previous might also work: python-scipy without all dependencancies
 *     (py36)\# sudo apt-get install python-matplotlib  
+*     (py36)\# sudo apt-get install python3-rpi.gpio
+*     (py36)\# sudo apt-get install python-rpi.gpio
+*     (py36)\# pip3 install RPi.GPIO
+*     (py36)\# apt-get install python3-gpiozero
+*     (py36)\# pip3 install gpiozero
+#
 ## Matplotlib 的 example 如下:
 #
 ### import matplotlib.pyplot as plt
