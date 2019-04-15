@@ -16,6 +16,8 @@
 * [下載線](https://goods.ruten.com.tw/item/show?21614419065751)
 * [USB-TTL](https://goods.ruten.com.tw/item/show?21618647811364)
 ### [安裝請參考:28頁](https://github.com/jumbokh/rpi_class/blob/master/NCTU/IoT%20platform%20course(Raspberry%20Pi)%20(2).pdf)
+![usb-ttl](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/USB_TTL.jpg)
+![connect to serial](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/connect-serial-to-raspberry-pi-model-b-plus.png)
 #
 ##### 燒錄系統至 SD卡
 #
