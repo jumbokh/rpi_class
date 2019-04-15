@@ -37,4 +37,9 @@
 ### plt.show()
 #
 # [matplotlib examples](https://matplotlib.org/1.4.1/users/pyplot_tutorial.html)
+#
+### 腳位圖
+![GPIO pinout](https://github.com/jumbokh/rpi_class/blob/master/src/images/166109.jpg)
+![溫溼度感測器 DHT11接線圖](https://github.com/jumbokh/rpi_class/blob/master/src/images/166107.jpg)
+![LED 接線圖](https://github.com/jumbokh/rpi_class/blob/master/src/images/166108.jpg)
 
