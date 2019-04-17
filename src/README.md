@@ -9,8 +9,9 @@
 *    $ sudo apt-get upgrade
 *    $ sudo reboot
 * 3. $ sudo apt-get install build-essential git cmake pkg-config
-* 4. $ sudo pip install virtualenv virtualenvwrapper
-* 5. $ sudo su -
+* 4. $ sudo apt-get install python-setuptools
+* 5. $ sudo apt-get install virtualenv virtualenvwrapper
+* 6. $ sudo su -
 *     \# virtualenv py36 -p python3.6
 *     \# source py36/bin/activate
 *     (py36)\# pip install numpy
