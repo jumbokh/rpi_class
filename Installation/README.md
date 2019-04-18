@@ -45,9 +45,11 @@
 # [overlays](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README)
 
 # 無線網路設定
-* /etc/wpa_supplicant/wpa_supplicant.conf
+#
+* sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 * network={
 *        ssid="netis_942253"
 *        psk="12345678"
 *        key_mgmt=WPA-PSK
 * }
+## $ sudo ifconfig
