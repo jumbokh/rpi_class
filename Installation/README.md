@@ -60,3 +60,4 @@
 * # apt-get install xrdp
 #
 ### 在 windows 下執行 遠端桌面連線
+![遠端桌面連線](https://github.com/jumbokh/rpi_class/blob/master/Installation/rdp.png)
