@@ -54,3 +54,9 @@
 * }
 ## $ sudo ifconfig
 ![wlan config](https://github.com/jumbokh/rpi_class/blob/master/Installation/wlan0.JPG)
+#
+# 更新套件
+* # apt-get update && apt-get upgrade
+* # apt-get install xrdp
+#
+### 在 windows 下執行 遠端桌面連線
