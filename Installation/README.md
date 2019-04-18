@@ -53,3 +53,4 @@
 *        key_mgmt=WPA-PSK
 * }
 ## $ sudo ifconfig
+![wlan config](https://github.com/jumbokh/rpi_class/blob/master/Installation/wlan0.JPG)
