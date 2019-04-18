@@ -61,3 +61,4 @@
 #
 ### 在 windows 下執行 遠端桌面連線
 ![遠端桌面連線](https://github.com/jumbokh/rpi_class/blob/master/Installation/rdp.png)
+![連線](https://github.com/jumbokh/rpi_class/blob/master/Installation/%E9%80%A3%E7%B7%9A.JPG)
