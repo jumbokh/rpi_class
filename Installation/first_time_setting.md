@@ -27,12 +27,12 @@ pi@raspberry:~$ sudo raspi-config
 #
 # 輸入 SSID、Key 如以下範例：
 # 
-network={
-        ssid="netis_942253"
-        psk="12345678"
-        key_mgmt=WPA-PSK
-}
-
+### network={
+###         ssid="netis_942253"
+###         psk="12345678"
+###         key_mgmt=WPA-PSK
+### }
+#
 # 按 Ctrl-x 儲存後離開
 #
 # pi@raspberry:~$ sudo reboot
