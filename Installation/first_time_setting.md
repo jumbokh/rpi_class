@@ -19,5 +19,35 @@ pi@raspberry:~$ sudo raspi-config
 ![Wi-fi Contry](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/Wifi-contry.JPG)
 ## 選擇 TW Taiwan，按 <Tab> 鍵，選擇 [OK], 再次選擇 [OK]
 #
+# 接下來設定介面，由主選單選擇： Interface Options，然後將 SSH、VNC、I2C、Serial、Remote GPIO 打開
+# 先不重開機
+## 設定無線網路連接
+#
+# pi@raspberry:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+#
+# 輸入 SSID、Key 如以下範例：
+# 
+network={
+        ssid="netis_942253"
+        psk="12345678"
+        key_mgmt=WPA-PSK
+}
 
+# 按 Ctrl-x 儲存後離開
+#
+# pi@raspberry:~$ sudo reboot
+# 重開後看看網路是否有連結
+# pi@raspberry:~$ hostname -I
+# 如果有 IP，表示可以連上網路
+#
+# 更新套件
+# pi@raspberry:~$ sudo apt-get update && sudo apt-get upgrade
+# pi@raspberry:~$ sudo reboot
+#
+# 安裝輸入法及字型
+#
+# pi@raspberry:~$ sudo apt-get install scim-chewing
+# pi@raspberry:~$ sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+#
+# [參考網站](https://blog.gtwang.org/iot/raspberry-pi-chinese-input-method/)
   
