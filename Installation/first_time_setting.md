@@ -18,5 +18,6 @@ pi@raspberry:~$ sudo raspi-config
 ## 再次進入 Localisation Options， 選擇 I4 Change Wi-fi Contry
 ![Wi-fi Contry](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/Wifi-contry.JPG)
 ## 選擇 TW Taiwan，按 <Tab> 鍵，選擇 [OK], 再次選擇 [OK]
+#
 
   
