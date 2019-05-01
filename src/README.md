@@ -12,23 +12,23 @@
 * 4. $ sudo apt-get install python-setuptools
 * 5. $ sudo apt-get install virtualenv virtualenvwrapper
 * 6. $ sudo su -
-*     \# virtualenv py36 -p python3.6
-*     \# source py36/bin/activate
-*     (py36)\# pip install numpy
-*     (py36)\# sudo apt-get install libblas-dev 
-*     (py36)\# sudo apt-get install liblapack-dev      
-*     (py36)\# [sudo apt-get install python-dev        ## Optional]
-*     (py36)\# [sudo apt-get install libatlas-base-dev ## Optional speed up execution]
-*     (py36)\# sudo apt-get install gfortran           
-*     (py36)\# sudo apt-get install python-setuptools  
-*     (py36)\# sudo easy_install scipy                 
-*     (py36)\# ## previous might also work: python-scipy without all dependencancies
-*     (py36)\# sudo apt-get install python-matplotlib  
-*     (py36)\# sudo apt-get install python3-rpi.gpio
-*     (py36)\# sudo apt-get install python-rpi.gpio
-*     (py36)\# pip3 install RPi.GPIO
-*     (py36)\# apt-get install python3-gpiozero
-*     (py36)\# pip3 install gpiozero
+*     \# virtualenv py3 -p python3.5
+*     \# source py3/bin/activate
+*     (py3)\# pip install numpy
+*     (py3)\# sudo apt-get install libblas-dev 
+*     (py3)\# sudo apt-get install liblapack-dev      
+*     (py3)\# [sudo apt-get install python-dev        ## Optional]
+*     (py3)\# [sudo apt-get install libatlas-base-dev ## Optional speed up execution]
+*     (py3)\# sudo apt-get install gfortran           
+*     (py3)\# sudo apt-get install python-setuptools  
+*     (py3)\# sudo easy_install scipy                 
+*     (py3)\# ## previous might also work: python-scipy without all dependencancies
+*     (py3)\# sudo apt-get install python-matplotlib  
+*     (py3)\# sudo apt-get install python3-rpi.gpio
+*     (py3)\# sudo apt-get install python-rpi.gpio
+*     (py3)\# pip3 install RPi.GPIO
+*     (py3)\# apt-get install python3-gpiozero
+*     (py3)\# pip3 install gpiozero
 #
 ## Matplotlib 的 example 如下:
 #
