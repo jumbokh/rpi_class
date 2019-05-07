@@ -1,3 +1,4 @@
+![GPIO 腳位](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/Pi2%20GPIO.png)
 ### GPIO 基礎實驗
 * 開始前的準備步驟
 ###### 1. sudo raspi-config
