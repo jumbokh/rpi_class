@@ -28,6 +28,11 @@
 *     (py3)\# apt-get install python3-gpiozero
 *     (py3)\# pip3 install gpiozero
 *     (py3)\# pip3 install jupyter
+*     (py3)\# ifconfig
+*     (py3)\# mkdir source
+*     (py3)\# cd source
+*     (py3)\# git clone https://github.com/jumbokh/rpi_class
+*     (py3)\# jupyter notebook --ip=192.168.1.111 --no-browser --allow-root 
 #
 ## Matplotlib 的 example 如下:
 #
