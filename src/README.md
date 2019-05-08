@@ -28,6 +28,18 @@
 *     (py3)\# apt-get install python3-gpiozero
 *     (py3)\# pip3 install gpiozero
 *     (py3)\# pip3 install jupyter
+*     (py3)\# ifconfig
+## Lab Start here
+*     (py3)\# mkdir source
+*     (py3)\# cd source
+*     (py3)\# git clone https://github.com/jumbokh/rpi_class
+*     (py3)\# git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+*     (py3)\# cd Adafruit_Python_DHT
+*     (py3)\# python setup.py install
+*     (py3)\# cd ..
+*     (py3)\# pip install environment_kernels
+*     (py3)\# jupyter notebook --generate-config
+*     (py3)\# jupyter notebook --ip=192.168.1.111 --no-browser --allow-root 
 #
 ## Matplotlib 的 example 如下:
 #
