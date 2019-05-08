@@ -18,8 +18,8 @@
 *     (py3)\# pip install numpy
 *     (py3)\# sudo apt-get install libblas-dev 
 *     (py3)\# sudo apt-get install liblapack-dev      
-*     (py3)\# [sudo apt-get install python-dev        ## Optional]
-*     (py3)\# [sudo apt-get install libatlas-base-dev ## Optional speed up execution]
+*     (py3)\# sudo apt-get install python3-dev        ## Optional
+*     (py3)\# sudo apt-get install libatlas-base-dev ## Optional speed up execution
 *     (py3)\# sudo apt-get install gfortran           
 *     (py3)\# sudo apt-get install python-setuptools  
 *     (py3)\# sudo apt-get install python3-rpi.gpio
