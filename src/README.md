@@ -22,14 +22,12 @@
 *     (py3)\# [sudo apt-get install libatlas-base-dev ## Optional speed up execution]
 *     (py3)\# sudo apt-get install gfortran           
 *     (py3)\# sudo apt-get install python-setuptools  
-*     (py3)\# sudo easy_install scipy                 
-*     (py3)\# ## previous might also work: python-scipy without all dependencancies
-*     (py3)\# sudo apt-get install python-matplotlib  
 *     (py3)\# sudo apt-get install python3-rpi.gpio
 *     (py3)\# sudo apt-get install python-rpi.gpio
 *     (py3)\# pip3 install RPi.GPIO
 *     (py3)\# apt-get install python3-gpiozero
 *     (py3)\# pip3 install gpiozero
+*     (py3)\# pip3 install jupyter
 #
 ## Matplotlib 的 example 如下:
 #
