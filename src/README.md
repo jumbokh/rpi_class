@@ -3,7 +3,7 @@
 * 開始前的準備步驟
 ###### 1. sudo raspi-config
 ######     啟用 interfaceing option->remote GPIO Control
-* 準備 python3.6 虛擬環境
+* 準備 python3.5 虛擬環境
 * 1. sudo su -
 * 2. $ sudo rpi-update
 *    $ sudo apt-get update
@@ -13,8 +13,8 @@
 * 4. $ sudo apt-get install python-setuptools
 * 5. $ sudo apt-get install virtualenv virtualenvwrapper
 * 6. $ sudo su -
-*     \# virtualenv py3 -p python3.5
-*     \# source py3/bin/activate
+*    # virtualenv py3 -p python3.5
+*    # source py3/bin/activate
 *     (py3)\# pip install numpy
 *     (py3)\# sudo apt-get install libblas-dev 
 *     (py3)\# sudo apt-get install liblapack-dev      
