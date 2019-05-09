@@ -17,6 +17,7 @@
 * create mask=0750
 * directory mask=0750
 #
+* sudo smbpassws -a pi    ## 輸入兩次密碼
 * sudo /etc/init.d/samba restart
 #
 ## 連接網路磁碟機
