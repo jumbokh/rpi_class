@@ -14,7 +14,7 @@
 * pi@raspberrypi:~ $ which python3
 * /usr/local/bin/python3
 ## 重新建立連結
-* pi@raspberrypi:~ $ sudo mv /usr/bin/python /usr/bin/python3.4.2 
+* pi@raspberrypi:~ $ sudo mv /usr/bin/python /usr/bin/python2.7.2
 ##
 * pi@raspberrypi:~ $ sudo ln -s /usr/local/bin/python3 /usr/bin/python
 ## 测试是否成功
