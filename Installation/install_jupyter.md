@@ -10,4 +10,4 @@
 * $ jupyter notebook password
 * ip -I
 * $ jupyter notebook
-* http://<ip>:8888
+* http://\<ip\>:8888
