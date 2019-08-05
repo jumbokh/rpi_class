@@ -1,0 +1,787 @@
+1
+00:00:06,170 --> 00:00:11,389
+let's roll
+
+2
+00:00:08,200 --> 00:00:11,389
+
+
+
+3
+00:00:08,210 --> 00:00:11,389
+[Music]
+
+4
+00:00:13,419 --> 00:00:13,419
+
+
+
+5
+00:00:13,429 --> 00:00:22,199
+hi guys we're group 12 I'm Ashley hi I'm
+
+6
+00:00:17,480 --> 00:00:22,199
+
+
+
+7
+00:00:17,490 --> 00:00:24,840
+Jeffrey hi this is a blush hi hi this is
+
+8
+00:00:22,189 --> 00:00:24,840
+
+
+
+9
+00:00:22,199 --> 00:00:27,060
+argument our video is going to discuss
+
+10
+00:00:24,830 --> 00:00:27,060
+
+
+
+11
+00:00:24,840 --> 00:00:29,910
+speaking technologies in the real estate
+
+12
+00:00:27,050 --> 00:00:29,910
+
+
+
+13
+00:00:27,060 --> 00:00:32,070
+industry in an age before smartphone
+
+14
+00:00:29,900 --> 00:00:32,070
+
+
+
+15
+00:00:29,910 --> 00:00:34,229
+people were forced to wander the streets
+
+16
+00:00:32,060 --> 00:00:34,229
+
+
+
+17
+00:00:32,070 --> 00:00:37,649
+and looking for houses to buy or to
+
+18
+00:00:34,219 --> 00:00:37,649
+
+
+
+19
+00:00:34,229 --> 00:00:39,659
+reach it was a hopeless tough with
+
+20
+00:00:37,639 --> 00:00:39,659
+
+
+
+21
+00:00:37,649 --> 00:00:41,719
+everyone relying on newspapers or
+
+22
+00:00:39,649 --> 00:00:41,719
+
+
+
+23
+00:00:39,659 --> 00:00:44,249
+word-of-mouth
+
+24
+00:00:41,709 --> 00:00:44,249
+
+
+
+25
+00:00:41,719 --> 00:00:46,589
+houses were nearly impossible to find
+
+26
+00:00:44,239 --> 00:00:46,589
+
+
+
+27
+00:00:44,249 --> 00:00:49,319
+and as an owner hadn't put up a sign
+
+28
+00:00:46,579 --> 00:00:49,319
+
+
+
+29
+00:00:46,589 --> 00:00:54,899
+outside it made the task even more
+
+30
+00:00:49,309 --> 00:00:54,899
+
+
+
+31
+00:00:49,319 --> 00:00:58,289
+difficult customers were left feeling
+
+32
+00:00:54,889 --> 00:00:58,289
+
+
+
+33
+00:00:54,899 --> 00:01:00,749
+dejected sad and helpless as they
+
+34
+00:00:58,279 --> 00:01:00,749
+
+
+
+35
+00:00:58,289 --> 00:01:04,559
+wandered around aimlessly trying to find
+
+36
+00:01:00,739 --> 00:01:04,559
+
+
+
+37
+00:01:00,749 --> 00:01:07,649
+these phantom houses this all changed
+
+38
+00:01:04,549 --> 00:01:07,649
+
+
+
+39
+00:01:04,559 --> 00:01:12,149
+with seeking technology so what is
+
+40
+00:01:07,639 --> 00:01:12,149
+
+
+
+41
+00:01:07,649 --> 00:01:14,369
+speaking technology a lighthouse things
+
+42
+00:01:12,139 --> 00:01:14,369
+
+
+
+43
+00:01:12,149 --> 00:01:18,000
+are signal of light to communicate with
+
+44
+00:01:14,359 --> 00:01:18,000
+
+
+
+45
+00:01:14,369 --> 00:01:20,579
+ship similar to this a beacon users a
+
+46
+00:01:17,990 --> 00:01:20,579
+
+
+
+47
+00:01:18,000 --> 00:01:22,679
+Bluetooth low-energy signal to
+
+48
+00:01:20,569 --> 00:01:22,679
+
+
+
+49
+00:01:20,579 --> 00:01:25,950
+communicate with any smart device in
+
+50
+00:01:22,669 --> 00:01:25,950
+
+
+
+51
+00:01:22,679 --> 00:01:28,829
+this range this is Marc Marc is looking
+
+52
+00:01:25,940 --> 00:01:28,829
+
+
+
+53
+00:01:25,950 --> 00:01:30,270
+for a house Marc got a notification to
+
+54
+00:01:28,819 --> 00:01:30,270
+
+
+
+55
+00:01:28,829 --> 00:01:32,640
+say that there were three houses for
+
+56
+00:01:30,260 --> 00:01:32,640
+
+
+
+57
+00:01:30,270 --> 00:01:35,159
+sale in this street so he decided to
+
+58
+00:01:32,630 --> 00:01:35,159
+
+
+
+59
+00:01:32,640 --> 00:01:36,749
+beat you down and have a look as Marc
+
+60
+00:01:35,149 --> 00:01:36,749
+
+
+
+61
+00:01:35,159 --> 00:01:39,090
+nears one of the houses that are for
+
+62
+00:01:36,739 --> 00:01:39,090
+
+
+
+63
+00:01:36,749 --> 00:01:41,429
+sale the beacon registers that come on
+
+64
+00:01:39,080 --> 00:01:41,429
+
+
+
+65
+00:01:39,090 --> 00:01:43,499
+with our app has approached and sends
+
+66
+00:01:41,419 --> 00:01:43,499
+
+
+
+67
+00:01:41,429 --> 00:01:45,149
+him a push notification with details
+
+68
+00:01:43,489 --> 00:01:45,149
+
+
+
+69
+00:01:43,499 --> 00:01:47,609
+about the property that is for sale
+
+70
+00:01:45,139 --> 00:01:47,609
+
+
+
+71
+00:01:45,149 --> 00:01:49,859
+there are many devices that can be used
+
+72
+00:01:47,599 --> 00:01:49,859
+
+
+
+73
+00:01:47,609 --> 00:01:53,429
+to broadcast the beacons such as
+
+74
+00:01:49,849 --> 00:01:53,429
+
+
+
+75
+00:01:49,859 --> 00:01:55,950
+computers tablets smartphones or USBs
+
+76
+00:01:53,419 --> 00:01:55,950
+
+
+
+77
+00:01:53,429 --> 00:01:58,829
+Dinkins can be used in a variety of
+
+78
+00:01:55,940 --> 00:01:58,829
+
+
+
+79
+00:01:55,950 --> 00:02:03,450
+different places such as amusement parks
+
+80
+00:01:58,819 --> 00:02:03,450
+
+
+
+81
+00:01:58,829 --> 00:02:07,109
+schools airports retail houses stadiums
+
+82
+00:02:03,440 --> 00:02:07,109
+
+
+
+83
+00:02:03,450 --> 00:02:09,149
+hotels museums and even restaurants we
+
+84
+00:02:07,099 --> 00:02:09,149
+
+
+
+85
+00:02:07,109 --> 00:02:11,220
+designed our app using beacon technology
+
+86
+00:02:09,139 --> 00:02:11,220
+
+
+
+87
+00:02:09,149 --> 00:02:14,460
+for the real estate market
+
+88
+00:02:11,210 --> 00:02:14,460
+
+
+
+89
+00:02:11,220 --> 00:02:17,700
+our app is called hi or house and great
+
+90
+00:02:14,450 --> 00:02:17,700
+
+
+
+91
+00:02:14,460 --> 00:02:19,680
+head real estate agencies give us their
+
+92
+00:02:17,690 --> 00:02:19,680
+
+
+
+93
+00:02:17,700 --> 00:02:22,080
+property information and then we provide
+
+94
+00:02:19,670 --> 00:02:22,080
+
+
+
+95
+00:02:19,680 --> 00:02:25,680
+them without interactive app and the use
+
+96
+00:02:22,070 --> 00:02:25,680
+
+
+
+97
+00:02:22,080 --> 00:02:28,350
+of beacon technology in our new digital
+
+98
+00:02:25,670 --> 00:02:28,350
+
+
+
+99
+00:02:25,680 --> 00:02:30,780
+age customers can now use beacon
+
+100
+00:02:28,340 --> 00:02:30,780
+
+
+
+101
+00:02:28,350 --> 00:02:34,110
+technology and their smartphones to find
+
+102
+00:02:30,770 --> 00:02:34,110
+
+
+
+103
+00:02:30,780 --> 00:02:35,930
+houses to buy or to rent at the top of
+
+104
+00:02:34,100 --> 00:02:35,930
+
+
+
+105
+00:02:34,110 --> 00:02:38,370
+the street customers get a notification
+
+106
+00:02:35,920 --> 00:02:38,370
+
+
+
+107
+00:02:35,930 --> 00:02:39,900
+from our app to say that there are
+
+108
+00:02:38,360 --> 00:02:39,900
+
+
+
+109
+00:02:38,370 --> 00:02:42,330
+houses to fail through the down the
+
+110
+00:02:39,890 --> 00:02:42,330
+
+
+
+111
+00:02:39,900 --> 00:02:44,190
+street as they continue down the street
+
+112
+00:02:42,320 --> 00:02:44,190
+
+
+
+113
+00:02:42,330 --> 00:02:46,800
+the beacon located in a house that is
+
+114
+00:02:44,180 --> 00:02:46,800
+
+
+
+115
+00:02:44,190 --> 00:02:49,530
+for sale triggers a notification in our
+
+116
+00:02:46,790 --> 00:02:49,530
+
+
+
+117
+00:02:46,800 --> 00:02:51,290
+house in great hands at the app and
+
+118
+00:02:49,520 --> 00:02:51,290
+
+
+
+119
+00:02:49,530 --> 00:02:53,610
+provides information about the property
+
+120
+00:02:51,280 --> 00:02:53,610
+
+
+
+121
+00:02:51,290 --> 00:02:55,920
+we get access to the Realtors
+
+122
+00:02:53,600 --> 00:02:55,920
+
+
+
+123
+00:02:53,610 --> 00:02:57,450
+information pictures of the house and
+
+124
+00:02:55,910 --> 00:02:57,450
+
+
+
+125
+00:02:55,920 --> 00:02:59,490
+other properties for sale in the area
+
+126
+00:02:57,440 --> 00:02:59,490
+
+
+
+127
+00:02:57,450 --> 00:03:01,440
+and it gives the customers the
+
+128
+00:02:59,480 --> 00:03:01,440
+
+
+
+129
+00:02:59,490 --> 00:03:03,780
+opportunity to book a viewing of the
+
+130
+00:03:01,430 --> 00:03:03,780
+
+
+
+131
+00:03:01,440 --> 00:03:06,320
+house at a later date there are several
+
+132
+00:03:03,770 --> 00:03:06,320
+
+
+
+133
+00:03:03,780 --> 00:03:09,210
+speakers of our app for customers
+
+134
+00:03:06,310 --> 00:03:09,210
+
+
+
+135
+00:03:06,320 --> 00:03:11,610
+firstly customers will receive a push
+
+136
+00:03:09,200 --> 00:03:11,610
+
+
+
+137
+00:03:09,210 --> 00:03:13,980
+notification when they near a house with
+
+138
+00:03:11,600 --> 00:03:13,980
+
+
+
+139
+00:03:11,610 --> 00:03:16,140
+their selected criteria the app is
+
+140
+00:03:13,970 --> 00:03:16,140
+
+
+
+141
+00:03:13,980 --> 00:03:19,050
+available on all smart devices and is
+
+142
+00:03:16,130 --> 00:03:19,050
+
+
+
+143
+00:03:16,140 --> 00:03:21,090
+easy to install and to operate customers
+
+144
+00:03:19,040 --> 00:03:21,090
+
+
+
+145
+00:03:19,050 --> 00:03:22,500
+can enjoy down the street and they will
+
+146
+00:03:21,080 --> 00:03:22,500
+
+
+
+147
+00:03:21,090 --> 00:03:24,690
+receive a notification when they
+
+148
+00:03:22,490 --> 00:03:24,690
+
+
+
+149
+00:03:22,500 --> 00:03:27,600
+approach a house sale or for rent
+
+150
+00:03:24,680 --> 00:03:27,600
+
+
+
+151
+00:03:24,690 --> 00:03:29,489
+using beacons and side houses will allow
+
+152
+00:03:27,590 --> 00:03:29,489
+
+
+
+153
+00:03:27,600 --> 00:03:31,200
+for customers to view houses at earthen
+
+154
+00:03:29,479 --> 00:03:31,200
+
+
+
+155
+00:03:29,489 --> 00:03:33,270
+homes without a real estate agent
+
+156
+00:03:31,190 --> 00:03:33,270
+
+
+
+157
+00:03:31,200 --> 00:03:34,980
+following them around as the beacons
+
+158
+00:03:33,260 --> 00:03:34,980
+
+
+
+159
+00:03:33,270 --> 00:03:37,950
+will provide information about specific
+
+160
+00:03:34,970 --> 00:03:37,950
+
+
+
+161
+00:03:34,980 --> 00:03:40,080
+rooms and features the Apple has an
+
+162
+00:03:37,940 --> 00:03:40,080
+
+
+
+163
+00:03:37,950 --> 00:03:41,700
+interactive map which lists all of the
+
+164
+00:03:40,070 --> 00:03:41,700
+
+
+
+165
+00:03:40,080 --> 00:03:44,459
+properties that are registered with our
+
+166
+00:03:41,690 --> 00:03:44,459
+
+
+
+167
+00:03:41,700 --> 00:03:46,410
+software finally the app will provide a
+
+168
+00:03:44,449 --> 00:03:46,410
+
+
+
+169
+00:03:44,459 --> 00:03:48,120
+much more interactive experience for the
+
+170
+00:03:46,400 --> 00:03:48,120
+
+
+
+171
+00:03:46,410 --> 00:03:50,170
+customer which will make the job of
+
+172
+00:03:48,110 --> 00:03:50,170
+
+
+
+173
+00:03:48,120 --> 00:04:01,749
+house hunting more enjoyable
+
+174
+00:03:50,160 --> 00:04:01,749
+
+
+
+175
+00:03:50,170 --> 00:04:01,749
+[Music]
+
