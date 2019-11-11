@@ -19,7 +19,7 @@
 * GPIO.output(12, GPIO.HIGH)
 #### 使用 BCM
 * import RPi.GPIO as GPIO 
-* # the same script as above but using BCM GPIO 00..nn numbers
+* \# the same script as above but using BCM GPIO 00..nn numbers
 * GPIO.setmode(GPIO.BCM)
 * GPIO.setup(17, GPIO.IN)
 * GPIO.setup(18, GPIO.OUT)
