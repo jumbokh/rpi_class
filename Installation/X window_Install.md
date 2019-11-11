@@ -7,4 +7,7 @@
 * sudo apt-get install xfce4 xfce4-terminal
 * sudo apt-get install mate-desktop-environment-core
 * sudo apt-get install lightdm
-* startx
+* sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+* sudo apt-get install scim-chewing
+* sudo reboot
+### 嘗試以遠端桌面登入
