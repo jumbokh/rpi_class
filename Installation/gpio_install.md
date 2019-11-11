@@ -5,17 +5,17 @@
 ## [Sourceforge 中關於 rpi.GPIO 的安裝指示](https://sourceforge.net/p/raspberry-gpio-python/wiki/install/)
 #### example
 * import RPi.GPIO as GPIO
-* # to use Raspberry Pi board pin numbers
+* \# to use Raspberry Pi board pin numbers
 * GPIO.setmode(GPIO.BOARD)
 * GPIO.setwarnings(False)
-* # set up the GPIO channels - one input and one output
+* \# set up the GPIO channels - one input and one output
 * GPIO.setup(11, GPIO.IN)
 * GPIO.setup(12, GPIO.OUT)
 * 
-* # input from pin 11
+* \# input from pin 11
 * input_value = GPIO.input(11)
 * 
-* # output to pin 12
+* \# output to pin 12
 * GPIO.output(12, GPIO.HIGH)
 #### 使用 BCM
 * import RPi.GPIO as GPIO 
