@@ -24,17 +24,8 @@
 * python3 --version
 * sudo apt purge timidity lxmusic gnome-disk-utility deluge-gtk evince wicd wicd-gtk clipit usermode gucharmap gnome-system-tools pavucontrol
 * sudo apt-get install python-rpi.gpio python3-rpi.gpio
-* vi gpio_test.py
-* python3 gpio_test.py 
-* vi gpio_test.py
-* python3 gpio_test.py 
-* sudo python3 gpio_test.py 
-* vi gpio_test.py
-* sudo python3 gpio_test.py 
-* vi gpio_bcm.py
-* sudo python3 gpio_bcm.py 
-* vi gpio_bcm.py 
-* sudo python3 gpio_bcm.py 
+* mkdir src
+* git clone https://github.com/jumbokh/rpi_class
 ### 安裝視窗環境
 * sudo apt-get install xrdp
 * ip addr
