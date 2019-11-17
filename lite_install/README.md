@@ -74,9 +74,8 @@ source ~/.bashrc
 ### 建立虛擬環境
 * mkvirtualenv cv -p python3
 * cd ~
-* git clone https://github.com/jumbokh/rpi_class
 * workon cv
-* pip3 install -r rpi_class/lite_install/require.txt
+* pip3 install -r ~/src/rpi_class/lite_install/require.txt
 * sudo vi /etc/dphys-swapfile 
 * sudo /etc/init.d/dphys-swapfile stop
 * sudo /etc/init.d/dphys-swapfile start
