@@ -24,6 +24,7 @@
 * python3 --version
 * sudo apt purge timidity lxmusic gnome-disk-utility deluge-gtk evince wicd wicd-gtk clipit usermode gucharmap gnome-system-tools pavucontrol
 * sudo apt-get install python-rpi.gpio python3-rpi.gpio
+* sudo apt install python3-opencv
 * mkdir src
 * git clone https://github.com/jumbokh/rpi_class
 ### 安裝視窗環境
