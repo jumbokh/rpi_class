@@ -58,6 +58,7 @@ exec openbox-session
 * sudo apt-get install libxvidcore-dev libx264-dev
 * sudo apt-get install libgtk-3-dev
 * sudo apt-get install libatlas-base-dev gfortran
+* sudo apt-get install python3-scipy
 * wget https://bootstrap.pypa.io/get-pip.py
 * sudo python3 get-pip.py
 * sudo pip install virtualenv virtualenvwrapper
