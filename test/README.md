@@ -3,5 +3,9 @@
 #
 ##
 [程式:gpio_bcm.py](gpio_bcm.py)
+### 必要模組:
+* pip3 install RPi.GPIO
+### 執行:
+* sudo python3 gpio_bcm.py
 ##
 ![LED接線](RPi_LED_bb.jpg)
