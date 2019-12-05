@@ -2,5 +2,6 @@
 ![樹莓派腳位](rp2_pinout.png)
 #
 ##
-[程式](gpio_bcm.py)
+[程式:gpio_bcm.py](gpio_bcm.py)
+##
 ![LED接線](RPi_LED_bb.jpg)
