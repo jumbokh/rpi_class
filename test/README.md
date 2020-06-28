@@ -9,3 +9,4 @@
 * sudo python3 gpio_bcm.py
 ##
 ![LED接線](RPi_LED_bb.jpg)
+* [A People Counter with Raspberry Pi and Ubidots](https://www.hackster.io/ubimaker/a-people-counter-with-raspberry-pi-and-ubidots-2b53be)
