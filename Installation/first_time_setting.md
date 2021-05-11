@@ -1,4 +1,6 @@
 順利以 pi 帳號登入之後的設定工作
+# 從序列埠登入設定 WiFi
+* [命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
 # 語系及輸入法設定
 ![登入畫面](https://github.com/jumbokh/rpi_class/blob/master/Installation/image/first_login.JPG)
 pi@raspberry:~$ sudo raspi-config
