@@ -5,10 +5,11 @@
 * ifconfig
 * sudo vi /etc/wpa_supplicant/wpa_supplicant.conf 
 ### 貼上以下內容
-
+* country=TW
+* ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
 * network={
-*   ssid="TP-LINK_940"
-*   psk="12345678"
+*   ssid="Your-SSID"
+*   psk="Your-Keys"
 *   key_mgmt=WPA-PSK
 * }
 
