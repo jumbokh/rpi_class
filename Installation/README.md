@@ -30,7 +30,7 @@
 * dwc_otg.lpm_enable=0 console=tty1 console=serial0,115200 root=PARTUUID=4c34f55a--02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait splash plymouth.igg nore-serial-consoles
 #
 * [refers](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/)
-##### 放一個空的檔案： SSH 至根目錄下 (SD卡目錄最頂端)
+##### 放一個空的檔案： ssh 至根目錄下 (SD卡目錄最頂端)
 #
 ##### 接下來把 USB-TTL 線連接至樹莓派，先不連接電腦
 #
@@ -47,9 +47,11 @@
 # 無線網路設定
 #
 * sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+* country=TW
+* ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
 * network={
-*        ssid="netis_942253"
-*        psk="12345678"
+*        ssid="Your-SSID"
+*        psk="Your-Keys"
 *        key_mgmt=WPA-PSK
 * }
 ## $ sudo ifconfig
