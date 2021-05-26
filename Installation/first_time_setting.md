@@ -37,8 +37,10 @@ pi@raspberry:~$ sudo raspi-config
 ### }
 #
 # 按 Ctrl-x 儲存後離開
-#
-# pi@raspberry:~$ sudo reboot
+# sync
+# sync
+# sync
+# pi@raspberry:~$ sudo shutdown -r now     # sudo reboot
 # 重開後看看網路是否有連結
 # pi@raspberry:~$ hostname -I
 # 如果有 IP，表示可以連上網路
