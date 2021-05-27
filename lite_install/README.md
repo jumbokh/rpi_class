@@ -6,7 +6,8 @@
 * sudo vi /etc/wpa_supplicant/wpa_supplicant.conf 
 ### 貼上以下內容
 * country=TW
-* ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
+* ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+* update_config=1
 * network={
 *   ssid="Your-SSID"
 *   psk="Your-Keys"
