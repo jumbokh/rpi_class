@@ -48,13 +48,14 @@
 # 無線網路設定
 #
 * sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-* country=TW
-* ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
-* network={
-*        ssid="Your-SSID"
-*        psk="Your-Keys"
-*        key_mgmt=WPA-PSK
-* }
+### country=TW
+### ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+### update_config=1
+### network={
+###        ssid="Your-SSID"
+###        psk="Your-Keys"
+###        key_mgmt=WPA-PSK
+### }
 ## $ sudo ifconfig
 ![wlan config](https://github.com/jumbokh/rpi_class/blob/master/Installation/wlan0.JPG)
 #
