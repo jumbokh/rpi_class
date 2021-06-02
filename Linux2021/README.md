@@ -76,6 +76,7 @@ sudo apt-get install python3-pandas python3-rpi.gpio i2c-tools avahi-utils joyst
 sudo apt-get install libatlas-base-dev libopenblas-dev libhdf5-serial-dev git ntp -y
 sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev libjasper-dev libwebp-dev   -y
 sudo apt-get install libatlas-base-dev libavcodec-dev libavformat-dev libswscale-dev libqtgui4 libqt4-test  -y
+sudo apt-get install python3-opencv -y
 </pre>
 ##
 #### 新建虛擬環境 env
@@ -92,5 +93,7 @@ pip list
 python -m pip install --upgrade pip
 pip install numpy pandas matplotlib seaborn opencv-python sklearn imageio 
 pip install jupyter notebook
+pip install opencv-python
+python -c "import cv2"
 sudo apt-get update && sudo apt-get install code
 </pre>
