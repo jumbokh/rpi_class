@@ -22,7 +22,7 @@
 * 19 Node-red 課程(暫定)
 * 20 系統救援
 ##
-##### 1. Linux 安裝及樹莓派的初始設定
+## 1. Linux 安裝及樹莓派的初始設定
 ## 無螢幕、鍵盤滑鼠, 安裝步驟
 * Step 1. 下載 作業系統映像檔 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
     * 請選擇: Raspberry Pi OS with desktop and recommended software
@@ -49,7 +49,7 @@ network={
 * Step 5. 退出 sd 卡
 * Step 6. 將sd卡插入樹莓派, 開啟電源
 * 
-##### 基本開發環境設定
+## 2. 基本開發環境設定
 ### 1. 改 swap
 * https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
 ### 2. 安裝開發環境
