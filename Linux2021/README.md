@@ -52,6 +52,7 @@ network={
 ## 2. 基本開發環境設定
 ### 1. 改 swap
 * https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
+* 設定 swap size 為 記憶體的 兩倍
 ### 2. 安裝開發環境
 * https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
 ### 3. 設定 python3 為 default python
