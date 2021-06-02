@@ -49,3 +49,28 @@ network={
 * Step 5. 退出 sd 卡
 * Step 6. 將sd卡插入樹莓派, 開啟電源
 * 
+##### 基本開發環境設定
+### 1. 改 swap
+* https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
+### 2. 安裝開發環境
+* https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
+### 3. 設定 python3 為 default python
+* Step 1. Add both (all) versions of python installed to the list of "alternatives" for the python binary.
+<pre>
+sudo update-alternatives --install $(which python) python $(readlink $(which python2)) 1
+sudo update-alternatives --install $(which python) python $(readlink $(which python3)) 2
+</pre>
+* Step 2. Select desired version:
+<pre>
+sudo update-alternatives --config python
+</pre>
+### 4. 設定 virtual env, and install packages
+<pre>
+python3 -m venv ds python=3.7
+source ds/bin/activate
+pip list
+python -m pip install --upgrade pip
+pip install numpy pandas matplotlib seaborn opencv-python sklearn imageio 
+pip install jupyter notebook
+sudo apt-get update && sudo apt-get install code
+</pre>
