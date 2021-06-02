@@ -91,7 +91,7 @@ python3 -m venv ds python=3.7
 source ds/bin/activate
 pip list
 python -m pip install --upgrade pip
-pip install numpy pandas matplotlib seaborn opencv-python sklearn imageio 
+pip install numpy pandas matplotlib seaborn sklearn imageio 
 pip install jupyter notebook
 pip install opencv-python
 python -c "import cv2"
