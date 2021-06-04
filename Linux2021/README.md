@@ -55,7 +55,7 @@ network={
 * 設定 swap size 為 記憶體的 兩倍
 ### 2. 安裝開發環境
 * https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
-### 3. 設定 python3 為 default python
+### 3. 設定 python3 為 default python [參考](https://www.it145.com/9/15405.html)
 * Step 1. Add both (all) versions of python installed to the list of "alternatives" for the python binary.
 <pre>
 sudo update-alternatives --install $(which python) python $(readlink $(which python2)) 1
