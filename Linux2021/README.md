@@ -97,3 +97,7 @@ pip install opencv-python
 python -c "import cv2"
 sudo apt-get update && sudo apt-get install code
 </pre>
+##
+### 5. Linux 基本指令 [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
+* [Linux 目錄結構](https://iter01.com/561259.html)
+* [使用者帳號與群組管理](http://120.105.184.250/peiyuli/unix/%E4%BD%BF%E7%94%A8%E8%80%85%E5%B8%B3%E8%99%9F%E8%88%87%E7%BE%A4%E7%B5%84%E7%AE%A1%E7%90%86.htm)
