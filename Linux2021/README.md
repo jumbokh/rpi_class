@@ -77,6 +77,12 @@ sudo apt-get install libatlas-base-dev libopenblas-dev libhdf5-serial-dev git nt
 sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev libjasper-dev libwebp-dev   -y
 sudo apt-get install libatlas-base-dev libavcodec-dev libavformat-dev libswscale-dev libqtgui4 libqt4-test  -y
 sudo apt-get install python3-opencv -y
+sudo apt-get install cmake pkg-config libjpeg-dev libpng-dev libavcodec-dev libavformat-dev libv4l-dev -y
+sudo apt-get install libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev -y
+sudo apt-get install libgtk2.0-dev libgtk-3-dev libatlas-base-dev -y
+sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103 -y
+sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 -y
+sudo apt-get install python3-dev -y
 </pre>
 ##
 #### 遠端桌面連線
