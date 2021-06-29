@@ -67,7 +67,7 @@ sudo update-alternatives --config python
 </pre>
 ### 4. 設定 virtual env, and install packages
 * 參考: [Donkey Car 環境設定](https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85)
-#### 相關軟體安裝
+#### 相關軟體安裝 ( 參考: [Install OpenCV 4 on Raspberry Pi 4 and Raspbian Buster](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/) )
 <pre>
 sudo apt-get update
 sudo apt-get upgrade
@@ -83,6 +83,14 @@ sudo apt-get install libgtk2.0-dev libgtk-3-dev libatlas-base-dev -y
 sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103 -y
 sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 -y
 sudo apt-get install python3-dev -y
+</pre>
+##
+#### install pip
+<pre>
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ sudo python get-pip.py
+$ sudo python3 get-pip.py
+$ sudo rm -rf ~/.cache/pip
 </pre>
 ##
 #### 遠端桌面連線
