@@ -87,6 +87,7 @@ sudo apt-get install python3-opencv -y
 python3 -m virtualenv -p python3 env --system-site-packages
 echo "source env/bin/activate" >> ~/.bashrc
 source ~/.bashrc
+deactivate # 離開虛擬環境
 </pre>
 ##
 <pre>
@@ -94,7 +95,7 @@ python3 -m venv ds python=3.7
 source ds/bin/activate
 pip list
 python -m pip install --upgrade pip
-pip install numpy pandas matplotlib seaborn sklearn imageio 
+pip install numpy pandas matplotlib seaborn scipy sklearn imageio 
 pip install jupyter notebook
 pip install opencv-python
 python -c "import cv2"
