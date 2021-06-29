@@ -79,6 +79,9 @@ sudo apt-get install libatlas-base-dev libavcodec-dev libavformat-dev libswscale
 sudo apt-get install python3-opencv -y
 </pre>
 ##
+#### 遠端桌面連線
+* sudo apt-get install xrdp
+* 在 win10 上執行遠端桌面連線 (可以調整選項, 以免佔用全部螢幕)
 #### 新建虛擬環境 env
 <pre>
 python3 -m virtualenv -p python3 env --system-site-packages
