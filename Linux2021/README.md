@@ -93,6 +93,13 @@ exec openbox-session
 * sudo apt-get install lightdm
 * sudo reboot
 ##
+### 測試 X-Window
+* Step 1. 取得 ip 位址
+* Step 2. New 一個 MobaXterm Session
+    * 選擇 ssh
+    * Advanced SSH Settings -> Remote Environment: Xfce4 desktop
+    * 登入, 等候畫面啟動
+##
 ### 2. 安裝開發環境
 * https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
 ### 3. 設定 python3 為 default python [參考](https://linuxconfig.org/change-default-python-version-on-raspbian-gnu-linuxl)
