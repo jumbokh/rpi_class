@@ -63,6 +63,36 @@ iface wlan0 inet dhcp
 ### 1. 改 swap
 * https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
 * 設定 swap size 為 記憶體的 兩倍
+##
+### 安裝開發環境
+* python --version
+* python3 --version
+* sudo apt purge timidity lxmusic gnome-disk-utility deluge-gtk evince wicd wicd-gtk clipit usermode gucharmap gnome-system-tools pavucontrol
+* sudo apt-get install python-rpi.gpio python3-rpi.gpio
+* sudo apt install python3-opencv
+* mkdir src
+* git clone https://github.com/jumbokh/rpi_class
+### 安裝視窗環境
+* sudo apt-get install xrdp
+* ip addr
+* sudo apt-get install lxde-core lxappearance
+* sudo apt-get install xfce4 xfce4-terminal
+* sudo apt-get install mate-desktop-environment-core
+* sudo apt-get install lightdm
+* sudo reboot
+* sudo apt-get install scim-chewing
+* sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+* cp /etc/X11/xinit/xinitrc ~/.xinitrc
+* vi ~/.xinitrc
+###### 貼上下面這一行
+exec openbox-session
+###
+
+* sudo apt-get install rc-gui
+* sudo apt-get install openbox lxterminal
+* sudo apt-get install lightdm
+* sudo reboot
+##
 ### 2. 安裝開發環境
 * https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
 ### 3. 設定 python3 為 default python [參考](https://linuxconfig.org/change-default-python-version-on-raspbian-gnu-linuxl)
