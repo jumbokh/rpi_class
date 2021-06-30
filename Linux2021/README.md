@@ -79,7 +79,6 @@ iface wlan0 inet dhcp
 * sudo apt-get install xfce4 xfce4-terminal
 * sudo apt-get install mate-desktop-environment-core
 * sudo apt-get install lightdm
-* sudo reboot
 * sudo apt-get install scim-chewing
 * sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 * cp /etc/X11/xinit/xinitrc ~/.xinitrc
