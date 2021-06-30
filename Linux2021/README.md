@@ -98,6 +98,7 @@ exec openbox-session
     * 選擇 ssh
     * Advanced SSH Settings -> Remote Environment: Xfce4 desktop
     * 登入, 等候畫面啟動
+* 解決遠端桌面的中文輸入法: [樹莓派 RaspBerry Pi 中文輸入法 (新酷音輸入法)](https://books.bod.idv.tw/2019/07/raspberry-pi.html)
 ##
 ### 2. 安裝開發環境
 * https://www.waveshare.net/wiki/DonkeyCar_for_PiRacer_Pro_%E6%95%99%E7%A8%8B%E4%B8%80%E3%80%81Raspberry_Pi%E5%AE%89%E8%A3%85
