@@ -48,7 +48,17 @@ network={
 ##
 * Step 5. 退出 sd 卡
 * Step 6. 將sd卡插入樹莓派, 開啟電源
-* 
+
+##### WiFi Not working
+* sudo nano /etc/network/interface.d/wlan0
+##### 貼上以下內容, 修改 ssid,key 儲存後重新開機
+<pre>
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+    wpa-ssid your-ssid
+    wpa-psk your-key
+</pre>
+##
 ## 2. 基本開發環境設定
 ### 1. 改 swap
 * https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
