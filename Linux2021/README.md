@@ -183,6 +183,17 @@ sudo apt-get update && sudo apt-get install code
     * 群組 jumbo:可讀
     * 其他: 可讀
     * 最後更新時間: 7/3 21:23
+* 修改權限: chmod
+    * 如: chmod 644 jlab.sh
+    * -rw-r--r-- 1 jumbo jumbo 51  7月  3 21:23 jlab.sh
+        * 擁有者 jumbo: 可讀 可寫  
+        * 群組 jumbo:可讀 
+        * 其他: 可讀 
+    * * 如: chmod 777 jlab.sh #(警告: 儘量不要設定此類權限, 易造成系統漏洞)
+    * -rwxrwxrwx 1 jumbo jumbo 51  7月  3 21:23 jlab.sh
+        * 擁有者 jumbo: 可讀 可寫 可執行 
+        * 群組 jumbo:可讀 可寫 可執行
+        * 其他: 可讀 可寫 可執行
 ***
 * touch file-name
     * file-name 不存在: 新建檔案, 檔名 file-name
