@@ -164,6 +164,31 @@ sudo apt-get update && sudo apt-get install code
 </pre>
 ##
 ### 5. Linux 基本指令
+* pwd, cd, ls
+    * ls -l : long list
+    * ls -al : 顯示隱藏檔案 (以 "." 開頭的目錄或檔名)
+* 權限 rwx
+##### -rwxr--r-- 1 jumbo jumbo 51  7月  3 21:23 jlab.sh
+* 第一個 "-" : 代表一般檔 (ordinary file)
+* "d" : 目錄
+* "c" : character special device (字符特殊檔案設備)
+* "b" : block special device (區塊特殊檔案設備)
+* "F" : FIFO special device (first in first out 特殊檔案設備)
+##
+#### 接下來的字元 以三個為一組 rwx (4,2,1), 分別限定 所有權人(創建人), 群組成員, 其他成員 的權限
+#### 比如:
+* -rwxr--r-- 1 jumbo jumbo 51  7月  3 21:23 jlab.sh
+    * 為一般檔案, (但是為 shell script file)
+    * 擁有者 jumbo: 可讀 可寫 可執行
+    * 群組 jumbo:可讀
+    * 其他: 可讀
+    * 最後更新時間: 7/3 21:23
+***
+* touch file-name
+    * file-name 不存在: 新建檔案, 檔名 file-name
+    * file-name 存在: 更新最後修改時間為現在
+***
+### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
 * [Linux 目錄結構](https://iter01.com/561259.html) 
