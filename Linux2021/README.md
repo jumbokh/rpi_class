@@ -207,3 +207,4 @@ sudo apt-get update && sudo apt-get install code
 * [使用者帳號與群組管理](http://120.105.184.250/peiyuli/unix/%E4%BD%BF%E7%94%A8%E8%80%85%E5%B8%B3%E8%99%9F%E8%88%87%E7%BE%A4%E7%B5%84%E7%AE%A1%E7%90%86.htm)
 * [Unix 演進圖](https://zh.wikipedia.org/wiki/UNIX#/media/File:Unix_history-simple.svg)
 * [Build opencv 4.4.0](https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html)
+* [安裝 pytorch](https://zhuanlan.zhihu.com/p/79807661)
