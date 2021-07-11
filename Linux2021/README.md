@@ -174,6 +174,7 @@ sudo apt-get update && sudo apt-get install code
 * "c" : character special device (字符特殊檔案設備)
 * "b" : block special device (區塊特殊檔案設備)
 * "F" : FIFO special device (first in first out 特殊檔案設備)
+* "l" : link, 捷徑, 連結至指定檔案或目錄
 ##
 #### 接下來的字元 以三個為一組 rwx (4,2,1), 分別限定 所有權人(創建人), 群組成員, 其他成員 的權限
 #### 比如:
