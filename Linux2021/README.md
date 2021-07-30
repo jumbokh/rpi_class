@@ -200,6 +200,15 @@ sudo apt-get update && sudo apt-get install code
     * file-name 不存在: 新建檔案, 檔名 file-name
     * file-name 存在: 更新最後修改時間為現在
 ***
+* [dnstuils](https://www.tecmint.com/install-dig-and-nslookup-in-linux/)
+* [dig](https://ithelp.ithome.com.tw/articles/10214466)
+* [DNS](https://www.myfreax.com/how-to-use-dig-command-to-query-dns-in-linux/)
+* [DNS-1](https://haway.30cm.gg/dns-4-dig/)
+* [dig](https://www.azureunali.com/linuxnetwork-dig%E6%8C%87%E4%BB%A4%E7%B4%80%E9%8C%84/)
+* #### dig @dns.hinet.net A gigaenergy.com.tw
+* #### dig @dns.hinet.net MX gigaenergy.com.tw
+* ####  dig +nocmd tecadmin.net ALL +noall +answer
+***
 ### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
