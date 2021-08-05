@@ -237,6 +237,7 @@ sudo apt-get update && sudo apt-get install code
 * 執行: sudo crontab -e
 * 於最後一行加上: 分 時 日期 月份 週 指令 **見: [鳥站](http://linux.vbird.org/linux_basic/0430cron.php)**
 * 如: 59 23 * * * /usr/local/bin/backupday.sh > /dev/null 2>&1
+#### 每日 23:59 執行 /usr/local/bin/backupday.sh
 ##
 * [dnstuils](https://www.tecmint.com/install-dig-and-nslookup-in-linux/)
 * [dig](https://ithelp.ithome.com.tw/articles/10214466)
