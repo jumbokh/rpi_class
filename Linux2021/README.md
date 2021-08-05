@@ -72,14 +72,15 @@ sudo ./install.sh
 ##
 * 2. Angry IP scanner [官網](https://angryip.org/)
 * ![scan ip](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/ip-scan.JPG)
-## 2. 基本開發環境設定
-### 1. 改 swap
-* https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
-* 設定 swap size 為 記憶體的 兩倍
 ##
 * 3. [IOS: Network Analyzer](https://apps.apple.com/tw/app/network-analyzer/id562315041)
      [Android](https://play.google.com/store/apps/details?id=net.techet.netanalyzerlite.an&hl=zh_TW&gl=US)
      ![Network Analyzer](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/net-ana.jpg)
+##
+## 2. 基本開發環境設定
+### 1. 改 swap
+* https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
+* 設定 swap size 為 記憶體的 兩倍
 ##
 ### 安裝開發環境
 * python --version
