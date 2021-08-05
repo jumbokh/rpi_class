@@ -59,10 +59,27 @@ iface wlan0 inet dhcp
     wpa-psk your-key
 </pre>
 ##
+#### 尋找樹莓派 ip 方法:
+* 1. I2C oled ![OLED](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/oled.JPG)
+*    ![RPi4](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/rpi4.JPG)
+*    軟體:
+<pre>
+git clone https://github.com/waveshare/pi-display
+cd pi-display
+sudo ./install.sh
+</pre>
+![oled-i2c](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/oled-i2c.jpg)
+##
+* 2. Angry IP scanner [官網](https://angryip.org/)
+* ![scan ip](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/ip-scan.JPG)
 ## 2. 基本開發環境設定
 ### 1. 改 swap
 * https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-swap-configuration-using-usb-stick/
 * 設定 swap size 為 記憶體的 兩倍
+##
+* 3. [IOS: Network Analyzer](https://apps.apple.com/tw/app/network-analyzer/id562315041)
+     [Android](https://play.google.com/store/apps/details?id=net.techet.netanalyzerlite.an&hl=zh_TW&gl=US)
+     ![Network Analyzer](https://github.com/jumbokh/rpi_class/blob/master/Linux2021/net-ana.jpg)
 ##
 ### 安裝開發環境
 * python --version
@@ -238,3 +255,4 @@ sudo apt-get update && sudo apt-get install code
 * [Unix 演進圖](https://zh.wikipedia.org/wiki/UNIX#/media/File:Unix_history-simple.svg)
 * [Build opencv 4.4.0](https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html)
 * [安裝 pytorch](https://zhuanlan.zhihu.com/p/79807661)
+* [安裝 Wordpress](https://behind-the-scenes.net/installing-wordpress-on-a-raspberry-pi-raspbian/)
