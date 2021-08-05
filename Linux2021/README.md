@@ -200,6 +200,26 @@ sudo apt-get update && sudo apt-get install code
     * file-name 不存在: 新建檔案, 檔名 file-name
     * file-name 存在: 更新最後修改時間為現在
 ***
+#### 相關說明參考 [鳥站](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
+* find / -name "cv.*" -print
+* cat ~/.bashrc | grep PATH
+* ifconfig | grep inet
+* ps -aux 
+* kill -9 process-id
+* ln -fs source target
+* whereis && which
+#### 備份 & cron job [鳥站](http://linux.vbird.org/linux_basic/0580backup.php)
+* 備份目錄:
+    * /etc
+    * /var/lib/mysql
+    * /var/www/html
+    * /home
+    * /boot
+* 寫一 backupday.sh 進行每日備份
+* 執行: sudo crontab -e
+       * 於最後一行加上: 分 時 日期 月份 週 指令 #### 見: [鳥站](http://linux.vbird.org/linux_basic/0430cron.php)
+       * 如: 59 23 * * * /usr/local/bin/backupday.sh > /dev/null 2>&1
+##
 * [dnstuils](https://www.tecmint.com/install-dig-and-nslookup-in-linux/)
 * [dig](https://ithelp.ithome.com.tw/articles/10214466)
 * [DNS](https://www.myfreax.com/how-to-use-dig-command-to-query-dns-in-linux/)
