@@ -235,7 +235,7 @@ sudo apt-get update && sudo apt-get install code
     * /boot
 * 寫一 backupday.sh 進行每日備份
 * 執行: sudo crontab -e
-       * 於最後一行加上: 分 時 日期 月份 週 指令 **見: [鳥站](http://linux.vbird.org/linux_basic/0430cron.php)**
+* 於最後一行加上: 分 時 日期 月份 週 指令 **見: [鳥站](http://linux.vbird.org/linux_basic/0430cron.php)**
 * 如: 59 23 * * * /usr/local/bin/backupday.sh > /dev/null 2>&1
 ##
 * [dnstuils](https://www.tecmint.com/install-dig-and-nslookup-in-linux/)
