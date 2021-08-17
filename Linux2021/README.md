@@ -256,6 +256,17 @@ sudo chmod 640 /etc/ssmtp/ssmtp.conf
 sudo vi  /etc/ssmtp/ssmtp.conf
 echo "Test text" | mail -s "Test Mail" jumbokh@gmail.com
 </pre>
+###  Test Mail A. [How to Test Sendmail From Command Line on Linux](https://clients.javapipe.com/knowledgebase/132/How-to-Test-Sendmail-From-Command-Line-on-Linux.html)
+* which sendmail
+* echo "Subject: sendmail test" | sendmail -v jumbokh@gmail.com
+###  Test Mail B.
+* create a text file: mail.txt
+<pre>
+To: jumbokh@gmail.com
+Subject: sendmail test two
+From: root@rpi4.gigaenergy.com.tw
+</pre>
+* sendmail -vt < ~/mail.txt
 ### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
