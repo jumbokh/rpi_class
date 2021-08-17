@@ -274,6 +274,13 @@ From: root@rpi4.gigaenergy.com.tw
 * [如何讓 Raspberry Pi 開機自動掛載 USB 隨身碟或外接硬碟](https://blog.gtwang.org/iot/raspberry-pi-auto-mount-usb-disk/)
 * [Raspberry Pi：自動掛載USB隨身碟](http://yehnan.blogspot.com/2016/05/raspberry-piusb.html)
 * [mount - 掛載儲存裝置指令](http://note.drx.tw/2008/02/ubuntu-mount.html)
+### 建立及掛載 單一檔案系統
+* sudo -i
+*  dd if=/dev/zero of=file.img bs=1024 count=1024000
+*  mkfs /usb/file.img
+* mount -o loop file.img /mnt
+* find . -print | cpio -pudv /mnt
+* umount /mnt
 ### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
