@@ -248,6 +248,14 @@ sudo apt-get update && sudo apt-get install code
 * #### dig @dns.hinet.net MX gigaenergy.com.tw
 * ####  dig +nocmd tecadmin.net ALL +noall +answer
 ***
+### Mail Service
+<pre>
+sudo apt-get install ssmtp
+sudo vi  /etc/ssmtp/ssmtp.conf
+sudo chmod 640 /etc/ssmtp/ssmtp.conf
+sudo vi  /etc/ssmtp/ssmtp.conf
+echo "Test text" | mail -s "Test Mail" jumbokh@gmail.com
+</pre>
 ### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
@@ -258,3 +266,8 @@ sudo apt-get update && sudo apt-get install code
 * [Build opencv 4.4.0](https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html)
 * [安裝 pytorch](https://zhuanlan.zhihu.com/p/79807661)
 * [安裝 Wordpress](https://behind-the-scenes.net/installing-wordpress-on-a-raspberry-pi-raspbian/)
+* [RPi Email IP On Boot Debian](https://elinux.org/RPi_Email_IP_On_Boot_Debian)
+* [Mail on Buster](https://www.raspberrypi.org/forums/viewtopic.php?t=244147)
+* [定時回報外網 IP ](http://yhhuang1966.blogspot.com/2018/11/python-ip.html)
+* [Google 密碼更改後須為應用程式](https://yhhuang1966.blogspot.com/2020/12/google-gmail-smtp.html)
+* [樹莓派上利用 sSMTP 傳送郵件](http://yhhuang1966.blogspot.com/2017/02/ssmtp.html)
