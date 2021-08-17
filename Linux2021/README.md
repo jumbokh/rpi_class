@@ -296,3 +296,6 @@ From: root@rpi4.gigaenergy.com.tw
 * [定時回報外網 IP ](http://yhhuang1966.blogspot.com/2018/11/python-ip.html)
 * [Google 密碼更改後須為應用程式](https://yhhuang1966.blogspot.com/2020/12/google-gmail-smtp.html)
 * [樹莓派上利用 sSMTP 傳送郵件](http://yhhuang1966.blogspot.com/2017/02/ssmtp.html)
+* [dd 指令教學與實用範例，備份與回復資料的小工具](https://blog.gtwang.org/linux/dd-command-examples/)
+* [mount - 掛載儲存裝置指令](http://note.drx.tw/2008/02/ubuntu-mount.html)
+* [自動掛載 USB 隨身碟](http://yehnan.blogspot.com/2016/05/raspberry-piusb.html)
