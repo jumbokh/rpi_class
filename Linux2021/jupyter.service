@@ -1,0 +1,13 @@
+[Unit]
+Description=Jupyter Lab
+[Service]
+Type=simple
+PIDFile=/run/jupyter.pid
+ExecStart=/bin/bash -c "/home/jumbo/env/bin/jupyter-lab --ip="0.0.0.0" --no-browser --notebook-dir=/home/jumbo/notebooks"
+User=jumbo
+Group=jumbo
+WorkingDirectory=/home/jumbo/notebooks
+Restart=always
+RestartSec=10
+[Install]
+WantedBy=multi-user.target

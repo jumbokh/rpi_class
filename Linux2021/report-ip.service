@@ -1,0 +1,10 @@
+[Unit]
+Description=Ensure file exists on boot
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/code/reportip4.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target

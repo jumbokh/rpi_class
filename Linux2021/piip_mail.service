@@ -1,0 +1,12 @@
+[Unit]
+Description=Raspberry pi Send mail service
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/bin/bash /home/pi/code/checkip.sh
+WorkingDirectory=/home/pi/code
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
