@@ -270,6 +270,10 @@ From: root@rpi4.gigaenergy.com.tw
 ### 網路設定
 * [將樹莓派 (Raspberry Pi) 的 eth0 / wlan0 網路介面設定固定 IP](https://medium.com/@chungyi410/%E5%B0%87-raspberry-pi-%E7%9A%84-eth0-%E7%B6%B2%E8%B7%AF%E4%BB%8B%E9%9D%A2%E8%A8%AD%E5%AE%9A%E5%9B%BA%E5%AE%9A-ip-43010aa3effb)
 * [命令列設置無線網路](https://www.raspberrypi.com.tw/2152/setting-up-wifi-with-the-command-line/)
+### 掛載 USB Disk
+* [如何讓 Raspberry Pi 開機自動掛載 USB 隨身碟或外接硬碟](https://blog.gtwang.org/iot/raspberry-pi-auto-mount-usb-disk/)
+* [Raspberry Pi：自動掛載USB隨身碟](http://yehnan.blogspot.com/2016/05/raspberry-piusb.html)
+* [mount - 掛載儲存裝置指令](http://note.drx.tw/2008/02/ubuntu-mount.html)
 ### 參考
 * [常用 Linux 指令](https://ithelp.ithome.com.tw/articles/10235530)
 * [鳥哥的 Linux 指令介紹](https://linux.vbird.org/linux_basic/redhat6.1/linux_06command.php)
