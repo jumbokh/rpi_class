@@ -49,7 +49,7 @@ print("current ip: {}".format(emailip))
 smtp=smtplib.SMTP("smtp.gmail.com", 587)
 smtp.ehlo()
 smtp.starttls()
-smtp.login("jumbokh@gmail.com", "qsyjwzgrlisikxfa")
+smtp.login("jumbokh@gmail.com", "your-gmail-pass")
 from_addr="jumbokh@gmail.com"
 to_addr=["1101404110@nkust.edu.tw"]
 msg="Subject:My Raspberry IP\n\
