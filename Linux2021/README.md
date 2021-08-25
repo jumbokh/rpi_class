@@ -163,6 +163,7 @@ $ sudo rm -rf ~/.cache/pip
 * 在 win10 上執行遠端桌面連線 (可以調整選項, 以免佔用全部螢幕)
 #### 新建虛擬環境 env
 <pre>
+pip3 install virtualenv
 python3 -m virtualenv -p python3 env --system-site-packages
 echo "source env/bin/activate" >> ~/.bashrc
 source ~/.bashrc
