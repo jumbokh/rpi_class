@@ -187,9 +187,11 @@ mkdir notebooks
 jupyter lab --notebook-dir=~/notebooks
 which jupyter-lab
 /home/pi/env/bin/jupyter-lab
+</pre>
 ### Create a Service
 sudo nano /etc/systemd/system/jupyter.service
 ### file:
+<pre>
 [Unit]
 Description=Jupyter Lab
 [Service]
@@ -203,12 +205,21 @@ Restart=always
 RestartSec=10
 [Install]
 WantedBy=multi-user.target
+</pre>
 ###
+<pre>
 sudo systemctl enable jupyter.service
 sudo systemctl start jupyter.service
 sudo apt-get update && sudo apt-get install code
 </pre>
 ##
+#### Create password
+* jupyter notebook --generate-config
+* vi /home/pi/.jupyter/jupyter_notebook_config.py
+* jupyter notebook password
+* edit .jupyter/jupyter_notebook_config.py
+* change localhost to 0.0.0.0
+* c.NotebookApp.ip = '0.0.0.0'
 ### 5. Linux 基本指令
 * pwd, cd, ls
     * ls -l : long list
