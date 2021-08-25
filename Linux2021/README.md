@@ -165,7 +165,7 @@ $ sudo rm -rf ~/.cache/pip
 <pre>
 pip3 install virtualenv
 python3 -m virtualenv -p python3 env --system-site-packages
-echo "source env/bin/activate" >> ~/.bashrc
+echo "source ~/env/bin/activate" >> ~/.bashrc
 source ~/.bashrc
 deactivate # 離開虛擬環境
 </pre>
