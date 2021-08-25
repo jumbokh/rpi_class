@@ -204,6 +204,8 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 ###
+sudo systemctl enable jupyter.service
+sudo systemctl start jupyter.service
 sudo apt-get update && sudo apt-get install code
 </pre>
 ##
