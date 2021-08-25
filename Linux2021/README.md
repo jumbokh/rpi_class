@@ -180,6 +180,30 @@ pip install jupyter notebook
 pip install opencv-contrib-python-headless 
 pip install opencv-python
 python -c "import cv2"
+sudo apt install libffi-dev
+sudo pip3 install cffi
+pip3 install jupyterlab
+mkdir notebooks
+jupyter lab --notebook-dir=~/notebooks
+which jupyter-lab
+/home/pi/env/bin/jupyter-lab
+### Create a Service
+sudo nano /etc/systemd/system/jupyter.service
+### file:
+[Unit]
+Description=Jupyter Lab
+[Service]
+Type=simple
+PIDFile=/run/jupyter.pid
+ExecStart=/bin/bash -c "/home/pi/env/bin/jupyter-lab --ip="0.0.0.0" --no-browser --notebook-dir=/home/pi/notebooks"
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/notebooks
+Restart=always
+RestartSec=10
+[Install]
+WantedBy=multi-user.target
+###
 sudo apt-get update && sudo apt-get install code
 </pre>
 ##
