@@ -177,6 +177,7 @@ pip list
 python -m pip install --upgrade pip
 pip install numpy pandas matplotlib seaborn scipy sklearn imageio 
 pip install jupyter notebook
+pip install opencv-contrib-python-headless 
 pip install opencv-python
 python -c "import cv2"
 sudo apt-get update && sudo apt-get install code
