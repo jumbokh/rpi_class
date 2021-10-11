@@ -136,7 +136,7 @@ sudo update-alternatives --config python
 <pre>
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install build-essential python3 python3-dev python3-pip python3-virtualenv python3-numpy python3-picamera  -y
+sudo apt-get install build-essential python3-dev python3-pip python3-virtualenv python3-numpy python3-picamera  -y
 sudo apt-get install python3-pandas python3-rpi.gpio i2c-tools avahi-utils joystick libopenjp2-7-dev libtiff5-dev gfortran  -y
 sudo apt-get install libatlas-base-dev libopenblas-dev libhdf5-serial-dev git ntp -y
 sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev libjasper-dev libwebp-dev   -y
@@ -147,7 +147,6 @@ sudo apt-get install libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-de
 sudo apt-get install libgtk2.0-dev libgtk-3-dev libatlas-base-dev -y
 sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103 -y
 sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 -y
-sudo apt-get install python3-dev -y
 </pre>
 ##
 #### install pip
