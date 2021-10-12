@@ -156,6 +156,9 @@ $ sudo python3 get-pip.py
 $ sudo rm -rf ~/.cache/pip
 </pre>
 ##
+#### install tensorflow 2.x
+* [TensorFlow 2 on Raspberry Pi](https://towardsdatascience.com/3-ways-to-install-tensorflow-2-on-raspberry-pi-fe1fa2da9104)
+* [3 Ways to Install TensorFlow 2 on Raspberry Pi](bitsy.ai/3-ways-to-install-tensorflow-on-raspberry-pi)
 #### 遠端桌面連線
 * sudo apt-get install xrdp
 * 在 win10 上執行遠端桌面連線 (可以調整選項, 以免佔用全部螢幕)
