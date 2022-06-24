@@ -145,7 +145,7 @@ sudo apt-get install cmake pkg-config libjpeg-dev libpng-dev libavcodec-dev liba
 sudo apt-get install libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev -y
 sudo apt-get install libgtk2.0-dev libgtk-3-dev libatlas-base-dev -y
 sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103 -y
-sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 -y
+sudo apt-get install libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5 -y
 </pre>
 ##
 #### install pip
