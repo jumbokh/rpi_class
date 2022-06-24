@@ -140,7 +140,7 @@ sudo apt-get install build-essential python3-dev python3-pip python3-virtualenv 
 sudo apt-get install python3-pandas python3-rpi.gpio i2c-tools avahi-utils joystick libopenjp2-7-dev libtiff5-dev gfortran  -y
 sudo apt-get install libatlas-base-dev libopenblas-dev libhdf5-serial-dev git ntp -y
 sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev libjasper-dev libwebp-dev   -y
-sudo apt-get install libatlas-base-dev libavcodec-dev libavformat-dev libswscale-dev libqtgui4 libqt4-test  -y
+sudo apt-get install libatlas-base-dev libavcodec-dev libavformat-dev libswscale-dev -y ### libqtgui4 libqt4-test  -y
 sudo apt-get install cmake pkg-config libjpeg-dev libpng-dev libavcodec-dev libavformat-dev libv4l-dev -y
 sudo apt-get install libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev -y
 sudo apt-get install libgtk2.0-dev libgtk-3-dev libatlas-base-dev -y
