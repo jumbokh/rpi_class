@@ -22,16 +22,16 @@ sudo cp /lib/systemd/system/wpa_supplicant.service /etc/systemd/system/wpa_suppl
 
 # 修改設定檔
 # 不會用vim的同學可以用自己常用的沒關係
-sudo vim /etc/systemd/system/wpa_supplicant.service
+#### sudo vim /etc/systemd/system/wpa_supplicant.service
 
-找到這行：
-ExecStart=/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
-把它改成這樣
-ExecStart=/sbin/wpa_supplicant -u -s -c /etc/wpa_supplicant.conf -i wlan0
-sudo vim /etc/systemd/system/dhclient.service
+###  找到這行：
+#### ExecStart=/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+#### 把它改成這樣
+#### ExecStart=/sbin/wpa_supplicant -u -s -c /etc/wpa_supplicant.conf -i wlan0
+#### sudo vim /etc/systemd/system/dhclient.service
 
 貼上以下內容然後保存
-
+<pre>
 [Unit]
 Description= DHCP Client
 Before=network.target
@@ -41,6 +41,7 @@ Type=simple
 ExecStart=/sbin/dhclient wlan0
 [Install]
 WantedBy=multi-user.target
+</pre>
 之後啟動服務
 
 sudo systemctl enable dhclient.service
