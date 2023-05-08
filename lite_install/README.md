@@ -54,6 +54,7 @@ exec openbox-session
 * sudo apt-get install python3-thonny
 ###
 ### 安裝完整開發環境
+* sudo apt install python3-pip
 * pip3 install numpy matplotlib
 * sudo apt-get install build-essential cmake unzip pkg-config
 * sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
