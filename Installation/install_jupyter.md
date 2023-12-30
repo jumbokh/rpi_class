@@ -26,4 +26,8 @@
 * ip -I
 * $ jupyter notebook
 * http://\<ip\>:8888
->>>>>>> ab7075dcf1b645abf829a079d3c8f748a825d4f4
+##
+```
+python3 -m ipykernel install --user --name=cv
+
+```
