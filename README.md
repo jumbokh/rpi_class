@@ -4,3 +4,4 @@
 * [Linux 指令](https://blog.techbridge.cc/2017/12/23/linux-commnd-line-tutorial/)
 * [pytorch install](https://gist.github.com/akaanirban/621e63237e63bb169126b537d7a1d979)
 * [raspberry pi install pytorch](https://eide.ai/rpi4/pytorch/2020/06/30/pytorch-raspberry.html)
+* [RPI5 class+ Computer vision](https://drive.google.com/drive/folders/10I1ek_MGY__m6SVNJDZIldHqocwlrImU?usp=drive_link)
