@@ -8,3 +8,4 @@
 #
 ### Jetson
 * [resize](https://blog.csdn.net/Sugar1652/article/details/131738111?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-2-131738111-blog-118530281.235%5Ev43%5Epc_blog_bottom_relevance_base9&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-2-131738111-blog-118530281.235%5Ev43%5Epc_blog_bottom_relevance_base9&utm_relevant_index=5)
+* [NVIDIA Jetson AI Lab範例：text-generation-webui](https://blog.cavedu.com/2024/06/15/nvidia-jetson-ai-lab-text-generation-webui/?fbclid=IwY2xjawJZyxxleHRuA2FlbQIxMAABHUavlnH9fxco7x2f2piRxXvGXO_JjWHGUyd8xmUnkIQBZ07iziWQdwBspQ_aem_xArIMw6P20O1uqWjN8FBcw)
