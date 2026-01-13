@@ -1,3 +1,7 @@
+```
+# EMMC Flash
+https://wiki.seeedstudio.com/cn/raspberry_pi_5_uses_pcie_hat_dual_hat/#%E5%9C%A8-raspberry-pi-os-%E4%B8%8A%E4%BD%BF%E7%94%A8-sd-card-copier-%E5%B7%A5%E5%85%B7%E5%B0%86%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%88%B7%E5%86%99%E5%88%B0-nvme-ssd
+```
 ## 設定語系、時區，參考: [first_time_setting](https://github.com/jumbokh/rpi_class/blob/master/Installation/first_time_setting.md)
 * sudo raspi-config
 * sudo reboot
